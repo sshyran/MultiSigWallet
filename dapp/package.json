@@ -90,7 +90,7 @@
     "babel-register": "6.26.0",
     "coffee-script": "1.10.0",
     "electron": "1.8.6",
-    "electron-builder": "20.15.1",
+    "electron-builder": "21.2.0",
     "electron-packager": "8.7.2",
     "growl": "^1.10.5",
     "grunt": "1.0.0",
@@ -111,6 +111,7 @@
   },
   "build": {
     "appId": "pm.gnosis.wallet",
+    "npmRebuild": "false",
     "linux": {
       "target": [
         "deb"
