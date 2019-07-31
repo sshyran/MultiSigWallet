@@ -7,7 +7,7 @@ branches:
   only:
     - master
     - develop
-    - test
+    - debugging
 
 skip_tags: true
 
