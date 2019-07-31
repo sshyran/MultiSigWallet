@@ -33,7 +33,7 @@
         var encryptor = require('browser-passworder');
         var shell = require('electron').shell;
 
-        alert(ethereumWallet);
+        ethereumWallet ? alert(ethereumWallet) : alert('No module found');
       }
     </script>
 

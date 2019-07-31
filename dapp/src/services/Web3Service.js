@@ -861,7 +861,7 @@
         * Returns keystore string from localStorage or null
         */
         factory.getKeystore = function () {
-          return localStorage.getItem('keystore');
+          return localStorage ? localStorage.getItem('keystore') : '{}';
         };
 
         /**
