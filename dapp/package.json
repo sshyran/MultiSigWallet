@@ -12,7 +12,7 @@
   "main": "src/main.js",
   "scripts": {
     "build-linux": "build --linux",
-    "build-win": "build --win",
+    "build-win": "electron-builder --win",
     "build-osx": "build --mac",
     "build-libs-web": "grunt bundle --minify=true",
     "build-libs-electron": "grunt bundle --mode=electron --minify=true",
